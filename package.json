@@ -3,6 +3,6 @@
         "testcafe": "^1.8.8"
     },
     "scripts": {
-        "test": "testcafe chrome:headless,firefox:headless test.js"
+        "test": "testcafe chrome:headless,firefox:headless test.js --app \"node server.js\""
     }
 }
