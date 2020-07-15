@@ -1,0 +1,8 @@
+{
+    "devDependencies": {
+        "testcafe": "^1.8.8"
+    },
+    "scripts": {
+        "test": "testcafe chrome,firefox tests/index-test.js"
+    }
+}
